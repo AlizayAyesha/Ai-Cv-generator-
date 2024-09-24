@@ -1,6 +1,6 @@
 # Next.js Multi-Step Resume Builder Application
 
-This is a powerful multi-step resume builder application built with [Next.js](https://nextjs.org) and Tailwind using [`create-next-app`](https://ai-cv-generator-five.vercel.app/). The app provides a user-friendly interface to create, preview, and export resumes with a variety of customization options.
+This is a powerful multi-step resume builder application built with [Next.js](https://nextjs.org) and Tailwind. The app provides a user-friendly interface to create, preview, and export resumes with a variety of customization options.
 
 ## Features
 
