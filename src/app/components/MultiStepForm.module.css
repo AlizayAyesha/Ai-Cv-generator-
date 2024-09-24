@@ -1,0 +1,53 @@
+/* MultiStepForm.module.css */
+.container {
+  padding: 50px;
+  max-width: 400px;
+  margin: auto;
+  font-family: Arial sans-serif;
+}
+
+.header {
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #33333300;
+}
+/* Change the selector to a class */
+.form {
+  display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    color: #000;
+}
+
+/* MultiStepForm.module.css */
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border: none; 
+  background: transparent;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  transition: border-bottom-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.input:focus {
+  color: #000000; /* Change text color on focus */
+  outline: none; /* Remove default outline */
+  border-bottom: 2px solid #000000; /* Change border color on focus */
+}
+
+/* Optional: Remove hover effect on focus */
+.input:focus:hover {
+  border-bottom: 2px solid #ffffff; /* Keep the focus color on hover while focused */
+}
+
+
+

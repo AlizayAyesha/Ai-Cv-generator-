@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* globals.css */
+
+/* Light mode styles */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: #121212; /* Dark background */
+  color: white; /* Light text */
+}
+
+/* Additional styling for elements in dark mode */
+.dark .btn-toggle-theme {
+  background-color: #5fff57; /* Dark button background */
+  color: rgb(0, 0, 0); /* Light button text */
+}
+button {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  background-color: #194905; /* Adjust as needed */
+  color: #fff; /* Adjust as needed */
+  border: none; /* Adjust as needed */
+  cursor: pointer; /* Adjust as needed */
+  transition: background-color 0.3s ease; /* Optional for hover effect */
+}
+
+button:hover {
+  background-color: #1d620a; /* Adjust for hover effect */
+}
