@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Multi-Step Resume Builder Application
 
-## Getting Started
+This is a powerful multi-step resume builder application built with [Next.js](https://nextjs.org) and Tailwind using [`create-next-app`](https://ai-cv-generator-five.vercel.app/). The app provides a user-friendly interface to create, preview, and export resumes with a variety of customization options.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. **Multi-Step Resume Builder**
+   - A step-by-step form where users can input their resume details like personal information, education, work experience, skills, and more.
+   - User-friendly navigation between steps with validation to ensure all required fields are filled in.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. **Real-Time Preview**
+   - As users fill out the form, a real-time preview of the resume is displayed.
+   - On smaller screens, the preview section adjusts to appear beneath the form for optimal user experience.
+   - This ensures users can immediately see the changes they are making.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. **AI-Assisted Resume Suggestions**
+   - Leverage AI to provide suggestions on how to improve the resume, including tips on enhancing language, formatting, and structure.
+   - AI-driven optimization to suggest better skills, experience, and descriptions based on user input.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. **Export as PDF**
+   - Once the resume is completed, users can export it directly as a high-quality PDF file.
+   - Ensures the layout and formatting remain intact, ready for printing or sharing digitally.
 
-## Learn More
+### 5. **Dark Mode Support**
+   - The application includes a fully functional dark mode toggle for users who prefer a dark UI.
+   - Automatically saves the user's theme preference to enhance user experience.
 
-To learn more about Next.js, take a look at the following resources:
+### 6. **Responsive Design**
+   - The application is fully responsive and optimized for all screen sizes, including mobile, tablet, and desktop.
+   - On smaller screens, the resume preview moves beneath the form for better readability and usability.
+   
+### 7. **Image Upload for Profile Picture**
+   - Users can upload a profile picture to be included in the resume, enhancing the personal touch.
+   - The image section is customizable and adjusts to various layouts.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 8. **Custom Styling Options**
+   - Users can adjust the layout, font size, and styling of the resume, making it truly unique.
+   - These options allow users to create a personalized, professional-looking resume.
